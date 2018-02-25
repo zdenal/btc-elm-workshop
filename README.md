@@ -5,7 +5,8 @@ This is spike from workshop focused on bitcoin & block chain principles. If we w
 * make this works only via console (not HTML needed, the result should be printed directly into console)
 * make timestamp correctly working. Getting current time/date is in Elm side-effect so it require more additional logic to handle side-effects.
 * make module Transaction which would implement transaction logic (from, to, amount, returned amount)
-* make some performance measurement and try optimise code (eg. try Trampoline strategy for recursion)
+* make some performance measurement and try optimise code
+* if we will get stack overflow with bigger puzzle eg. try Trampoline strategy for recursion (probably worse for perf)
 * make accepting block logic (I am not sure how it should works in principle yet)
 
 ### Run example
